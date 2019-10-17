@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+}
+
+
+/* ==== ELEMENTS POSITION SETTING === */
+
+footer {
+  background: url('https://orange.codeberryschool.com/content/images/project-assets/simple-footer.png') repeat center;
+  height: 8rem;
+/*tartalom horizontális középre helyezése*/
+  text-align: center;
+/*tartalom vertikális középre helyezése 1. beállitás*/
+  display: table;
+  width: 100vw;
+  font-family: 'Arial', sans-serif;
+  font-size: .875rem;
+}
+
+.wrapper {
+/*tartalom vertikális középre helyezése 2. beállitás*/
+  display: table-cell;
+  vertical-align: middle;
+}
+
+/* === TIPOGRAPHY STYLES ===*/
+
+footer small {
+  color: #ccc;
+  letter-spacing: .025rem;
+  margin-bottom: 1.5rem;
+  display: block;
+}
+
+.footer-nav a {
+  text-decoration: none;
+  color: #c74f78;
+  margin: 0 .5rem;
+  display: inline-block;
+}
+
+.footer-nav a:hover {
+  color: #f26896;
+  transition: color .15s ease-in-out;
+}
+
+strong {
+  font-weight: 700;
+}
