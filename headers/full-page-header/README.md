@@ -4,4 +4,4 @@ This is a responsive Full Page header.
 
 ![larger-sceens](images/full-page-header-larger-sceens.jpg)
 
-![larger-sceens](images/full-page-header-phone-sceens.png)
+![phone-sceens](images/full-page-header-phone-screens.png)
